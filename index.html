@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e07ae9096.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>TicTacToe.com</li>
+        </ul>
+        <ul class="m-button">
+            <button><i onclick="playaudio()" class="fa-sharp fa-solid fa-volume-high"></i></button>
+            <button><i onclick="pauseaudio()" class="fa-sharp fa-solid fa-volume-xmark"></i></button>
+        </ul>
+    </nav>
+    <div class="gameContainer">
+        <div class="container">
+            <div class="box bt0 bl0"><span class="boxtext"></span></div>
+            <div class="box bt0"><span class="boxtext"></span></div>
+            <div class="box bt0 br0"><span class="boxtext"></span></div>
+            <div class="box bl0"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box br0"><span class="boxtext"></span></div>
+            <div class="box bb0 bl0"><span class="boxtext"></span></div>
+            <div class="box bb0"><span class="boxtext"></span></div>
+            <div class="box bb0 br0"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h1>Game info</h1>
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="imgbox">
+                <img src="https://media.giphy.com/media/CAKpbsAk91a9sT5Nak/giphy.gif" alt="image will be loaded">
+            </div>
+        </div>
+    </div>
+    <!-- <audio controls loop>
+        <source src=
+        "super-mario-.mp3"
+        type="audio/mp3">
+    </audio> -->
+    <button><i onclick="pauseaudio()" class="fa-sharp fa-solid fa-volume-xmark"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
