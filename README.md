@@ -4,6 +4,7 @@ The Tic Tac Toe game is a classic two-player board game built using HTML, CSS, a
 
 # Features
 Play a game of Tic Tac Toe against a friend.
+
 Simple and intuitive user interface for an easy gaming experience.
 Visual indicators for player turns and game outcomes (win, draw).
 
